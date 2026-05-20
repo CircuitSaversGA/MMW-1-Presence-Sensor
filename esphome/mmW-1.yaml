@@ -1,0 +1,68 @@
+substitutions:
+  # This is the "Base Name".
+  # "mmw-sensor-XXXXXX" but this file stays as your master template.
+  node_name: "mmw-1"
+esphome:
+  name: mmw-1
+  friendly_name: CSG ${node_name} Radar
+  name_add_mac_suffix: true
+
+esp32:
+  board: esp32-c3-devkitm-1 # The standard profile for C3 chips
+  variant: esp32c3
+  framework:
+    type: esp-idf           # Silences the warning and uses the modern compiler
+
+# Enable logging over USB/Network
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret csg_1_api_key
+
+# Enable Over-The-Air updates
+ota:
+  - platform: esphome
+
+wifi:
+  
+  # Prevents the C3 from aggressively sleeping the radio
+  power_save_mode: none
+
+  # Enable fallback hotspot in case Wi-Fi fails
+  ap:
+    ssid: "CSG-${node_name}-Setup"
+    password: "changeme"
+
+captive_portal:
+
+# =========================================
+# LD2410C RADAR CONFIGURATION
+# =========================================
+
+uart:
+  # Using standard accessible pins on the C3 Supermini
+  tx_pin: 20 
+  rx_pin: 21
+  baud_rate: 256000
+  parity: NONE
+  stop_bits: 1
+
+ld2410:
+
+binary_sensor:
+  - platform: ld2410
+    has_target:
+      name: "Room Presence"
+    has_moving_target:
+      name: "Room Moving Target"
+    has_still_target:
+      name: "Room Still Target"
+
+sensor:
+  - platform: ld2410
+    moving_distance:
+      name : "Room Moving Distance"
+    still_distance:
+      name: "Room Still Distance"
