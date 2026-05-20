@@ -1,5 +1,5 @@
-<img width="2293" height="1719" alt="csg mmW-1" src="https://github.com/user-attachments/assets/4dbc7a9b-ddc2-44e5-9bfe-4faede227b9d" />
 # MMW-1 Presence Sensor: Founders Edition
+<img width="2293" height="1719" alt="csg mmW-1" src="https://github.com/user-attachments/assets/4dbc7a9b-ddc2-44e5-9bfe-4faede227b9d" />
 
 Advanced, 24GHz mmWave human presence detection for Home Assistant. 
 
