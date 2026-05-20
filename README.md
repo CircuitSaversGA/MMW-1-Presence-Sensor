@@ -23,6 +23,7 @@ If you want to build your own, here are the parts I’ve tested for maximum reli
 * **Mounting:** [3M Command Small Refill Strips](https://amzn.to/3Pu69Yc)
 * **Power:** [10ft 3M Flat Type USB C Cable](https://amzn.to/4tSZCEt)
 * **Filament:** [Polymaker ABS Filament](https://amzn.to/4dn3991)
+* **Magnets:** [150 Pack Small Magnets, 6x3mm](https://amzn.to/4v63a7r)
 
 ---
 
