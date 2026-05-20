@@ -24,6 +24,7 @@ If you want to build your own, here are the parts I’ve tested for maximum reli
 * **Power:** [5V1A Power Adapter Plug](https://amzn.to/4wIxsP7) **Cable:** [10ft 3M Flat Type USB C Cable](https://amzn.to/4tSZCEt)
 * **Filament:** [Polymaker ABS Filament](https://amzn.to/4dn3991)
 * **Magnets:** [150 Pack Small Magnets, 6x3mm](https://amzn.to/4v63a7r)
+* **PCBS:** [ELEGOO 32 Pcs Double Sided PCB Board](https://amzn.to/4dCo8U6)
 
 ---
 
