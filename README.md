@@ -26,6 +26,7 @@ If you want to build your own, here are the parts I’ve tested for maximum reli
 * **Filament:** [Polymaker ABS Filament](https://amzn.to/4dn3991)
 * **Magnets:** [150 Pack Small Magnets, 6x3mm](https://amzn.to/4v63a7r)
 * **PCBS:** [ELEGOO 32 Pcs Double Sided PCB Board](https://amzn.to/4dCo8U6)
+* **Screws** [M2 Assorted Screws](https://amzn.to/4unU85x)
 
 ---
 
@@ -33,7 +34,8 @@ If you want to build your own, here are the parts I’ve tested for maximum reli
 The MMW-1 is 100% local and open-source.
 1. Copy the code from `/esphome/mmw-1-basic.yaml`.
 2. Flash your ESP32-C3 using the ESPHome dashboard.
-3. Native discovery in Home Assistant will handle the rest.
+3. Connect to AP labeled CSG-xxxxx-Setup
+4. Native discovery in Home Assistant will handle the rest.
 
 ## 🤝 Credits
 Special thanks to the community members who helped refine the initial logic. This project stays open-source to keep the smart home "private-by-design."
