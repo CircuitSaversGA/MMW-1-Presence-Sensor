@@ -17,7 +17,7 @@ Standard PIR motion sensors leave you in the dark. The **MMW-1** uses micro-rada
 
 ## 🛠️ DIY Build Guide (The BOM)
 If you want to build your own, here are the parts I’ve tested for maximum reliability.
-
+![alt text](20260520_172924.jpg)
 *As an Amazon Associate, I earn from qualifying purchases:*
 * **Sensor:** [LD2410C mmWave Radar Module](https://amzn.to/4dmmpnd)
 * **Microcontroller:** [ESP32-C3 SuperMini](https://amzn.to/4wLK20c)
